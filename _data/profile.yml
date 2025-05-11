@@ -1,10 +1,10 @@
-primary_name: "Haoxiang LU=u"
-secondary_name: ""
-navbar_name: "Your Name"
+primary_name: "Haoxiang LU"
+secondary_name: "鲁昊祥"
+navbar_name: "Haoxiang LU"
 
 positions:
 - logo: /assets/images/badges/ucas.png  # Logo is optional
-  name: Position 1 with logo
+  name: Master's Student
 # - name: Position 2 without logo
 
 
