@@ -67,3 +67,19 @@ div.lazy {
     font-family: Courier, monospace;
 }
 
+/* 中文CV链接的自定义样式 */
+.cv-link-chinese {
+    color: red; /* 将文本和图标颜色设置为红色 */
+  }
+  
+  /* 可选: 如果你希望链接被访问后仍然保持红色 */
+  .cv-link-chinese:visited {
+    color: red;
+  }
+  
+  /* 可选: 如果你想控制鼠标悬停时的颜色 (例如，保持红色或变为深红色) */
+  /* 如果你希望有不同的悬停效果，可以修改或移除这部分 */
+  .cv-link-chinese:hover {
+     color: darkred; /* 示例: 鼠标悬停时变为深红色 */
+     /* 或者 color: red; 来保持红色 */
+  }
