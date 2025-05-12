@@ -67,9 +67,3 @@ div.lazy {
     font-family: Courier, monospace;
 }
 
-video.w-100 {
-    max-width: 100%;
-    height: auto;
-    display: block;
-
-  }
