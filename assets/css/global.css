@@ -7,7 +7,11 @@ body {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-weight: 1700;
+    font-weight: 700;
+}
+
+h1 {
+    font-family: '微软雅黑', 'Microsoft YaHei', sans-serif; font-weight: 2000;
 }
 
 .text-profile-position {
