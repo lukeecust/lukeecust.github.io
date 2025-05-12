@@ -74,3 +74,38 @@ video.w-100 {
 
   }
 
+/* 基础链接样式 */
+.cv-link {
+    border: 1px solid #dee2e6 !important; /* 灰色边框 */
+    border-radius: 4px;
+    padding: 8px 16px;
+    text-decoration: none !important;
+    display: inline-flex;
+    align-items: center;
+    transition: all 0.2s;
+    background: white;
+}
+
+/* 英文CV样式 */
+.cv-link-en {
+    color: #000 !important; /* 黑色文字 */
+    border-color: #3498db !important; /* 蓝色边框 */
+}
+.cv-link-en .fa-file-alt {
+    color: #3498db !important; /* 蓝色图标 */
+}
+
+/* 中文CV样式 */
+.cv-link-cn {
+    color: #000 !important; /* 黑色文字 */
+    border-color: #e74c3c !important; /* 红色边框 */
+}
+.cv-link-cn .fa-file-alt {
+    color: #e74c3c !important; /* 红色图标 */
+}
+
+/* 悬停效果 */
+.cv-link:hover {
+    background-color: #f8f9fa;
+    transform: translateY(-1px);
+}
