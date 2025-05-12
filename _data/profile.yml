@@ -29,7 +29,7 @@ short_bio: >-
 
 portrait_url: /assets/images/photos/face.jpg
 portrait_caption: >-
-  Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
+  Photo by Manja Vitolic on Unsplash.
 
 education:
 - name: University of Chinese Academy of Sciences
@@ -59,5 +59,5 @@ awards:
 - name: A quick brown fox jumps over the lazy dog and runs away award
   date: 2021
 
-#   service:
+  service:
 # - name: Reviewer of <a href="https://www.embs.org/jbhi/">Journal of Biomedical and Health Informatics (JBHI)</a>
