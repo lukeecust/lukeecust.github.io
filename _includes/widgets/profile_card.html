@@ -40,21 +40,22 @@
                         <div class="text-profile-bio mt-3" {% if site.data.profile.short_bio_text_justify %}style="text-align: justify;"{% endif %}>
                             {{ site.data.profile.short_bio }}
                         </div>
-                        {% if site.data.profile.cv_link or site.data.profile.cv_link_chinese %}
-                        <div class="mt-3"> <!-- 移除 flex 容器 -->
+                        {% comment %} CV Links Section {% endcomment %}
+                        {% if site.data.profile.cv_link or site.data.profile.cv_link_zh %}
+                        <div class="mt-3"> {# A div to group CV links, with some top margin #}
                             {% if site.data.profile.cv_link %}
-                            <a target="_blank" href="{{ site.data.profile.cv_link | relative_url }}" class="cv-link">
-                                <i class="fas fa-file-alt"></i> Curriculum Vitae
-                            </a>
+                                <a target="_blank" href="{{ site.data.profile.cv_link | relative_url }}" class="mr-3">
+                                    <i class="fas fa-file-alt"></i> Curriculum Vitae
+                                </a>
                             {% endif %}
-
-                            {% if site.data.profile.cv_link_chinese %}
-                            <a target="_blank" href="{{ site.data.profile.cv_link_chinese | relative_url }}" class="cv-link-chinese ml-3"> <!-- 添加左侧间距 -->
-                                <i class="fas fa-file-alt"></i> Curriculum Vitae (中文版)
-                            </a>
+                            {% if site.data.profile.cv_link_zh %}
+                                <a target="_blank" href="{{ site.data.profile.cv_link_zh | relative_url }}">
+                                    <i class="fas fa-file-alt"></i> Curriculum Vitae (Chinese)
+                                </a>
                             {% endif %}
                         </div>
                         {% endif %}
+                        {% comment %} End CV Links Section {% endcomment %}
         
                 </div>
                 <hr />
