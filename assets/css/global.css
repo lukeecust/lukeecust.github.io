@@ -73,16 +73,3 @@ video.w-100 {
     display: block;
 
   }
-
-/* 基础链接样式 */
-.cv-link {
-    border: 1px solid #dee2e6 !important; /* 灰色边框 */
-    border-radius: 4px;
-    padding: 8px 16px;
-    text-decoration: none !important;
-    display: inline-flex;
-    align-items: center;
-    transition: all 0.2s;
-    background: white;
-}
-
