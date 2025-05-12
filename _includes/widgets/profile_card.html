@@ -40,9 +40,24 @@
                         <div class="text-profile-bio mt-3" {% if site.data.profile.short_bio_text_justify %}style="text-align: justify;"{% endif %}>
                             {{ site.data.profile.short_bio }}
                         </div>
-                        {% if site.data.profile.cv_link %}
-                            <a target="_blank" href="{{ site.data.profile.cv_link | relative_url }}"><i class="fas fa-file-alt"></i> Curriculum Vitae</a> <br/>
+                        
+                        {% comment %} CV Links Section {% endcomment %}
+                        {% if site.data.profile.cv_link or site.data.profile.cv_link_zh %}
+                        <div class="mt-3"> {# A div to group CV links, with some top margin #}
+                            {% if site.data.profile.cv_link %}
+                                <a target="_blank" href="{{ site.data.profile.cv_link | relative_url }}" class="mr-3"> {# mr-3 adds right margin #}
+                                    <i class="fas fa-file-alt"></i> Curriculum Vitae
+                                </a>
+                            {% endif %}
+                            {% if site.data.profile.cv_link_zh %}
+                                <a target="_blank" href="{{ site.data.profile.cv_link_zh | relative_url }}">
+                                    <i class="fas fa-file-alt"></i> Curriculum Vitae (Chinese)
+                                </a>
+                            {% endif %}
+                        </div>
                         {% endif %}
+                        {% comment %} End CV Links Section {% endcomment %}
+
                     </div>
         
                 </div>
