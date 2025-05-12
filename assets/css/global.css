@@ -86,24 +86,3 @@ video.w-100 {
     background: white;
 }
 
-/* 英文 CV - 蓝色无边框 */
-.cv-link {
-    color: #007bff !important; /* 原始链接蓝色 */
-    text-decoration: none;
-    transition: color 0.2s;
-}
-.cv-link:hover {
-    color: #0056b3 !important; /* 悬停深蓝色 */
-    text-decoration: underline;
-}
-
-/* 中文 CV - 红色无边框 */
-.cv-link-chinese {
-    color: #dc3545 !important; /* Bootstrap 红色 */
-    text-decoration: none;
-    transition: color 0.2s;
-}
-.cv-link-chinese:hover {
-    color: #a71d2a !important; /* 悬停深红色 */
-    text-decoration: underline;
-}
