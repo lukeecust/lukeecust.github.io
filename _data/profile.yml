@@ -33,21 +33,21 @@ portrait_caption: >-
   Photo by Manja Vitolic on Unsplash.
 
 education:
-- name: University of Chinese Academy of Sciences
+- name: University of Chinese Academy of Sciences, Shanghai, Shanghai
   logo: /assets/images/badges/ucas.png
-  position: >- 
+  position: >-
     College of Resources and Enviorment <br/>
     M.S. in Environmental Engineering
   date: Sep. 2024 - present
-- name: East China University of Science and Technology
+- name: East China University of Science and Technology, Shanghai, Shanghai
   logo: /assets/images/badges/ecust.png
-  position: >- 
+  position: >-
     School of Resources and Enviorment Engineering <br/>
     B.S. in Environmental Engineering
   date: Sep. 2020 - Jun. 2024
 
 experience:
-- name: Tongji Architecture Design (Group) Co., Ltd.
+- name: Tongji Architecture Design (Group) Co., Ltd., Shanghai, Shanghai
   logo: /assets/images/badges/TJAD.png
   position: Research Intern
   date: Jul. 2023 - Sep. 2023
