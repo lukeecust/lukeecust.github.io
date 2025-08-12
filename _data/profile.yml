@@ -47,14 +47,15 @@ education:
   date: Sep. 2020 - Jun. 2024
 
 experience:
-- name: Tongji Architecture Design (Group) Co., Ltd.
-  logo: /assets/images/badges/TJAD.png
-  position: Research Intern
-  date: Jul. 2023 - Sep. 2023
 - name: Weiqiao National Higher Technology Research Institute
   logo: /assets/images/badges/WQGK.png
   position: Research Assistant
   date: Aug. 2024 - present
+- name: Tongji Architecture Design (Group) Co., Ltd.
+  logo: /assets/images/badges/TJAD.png
+  position: Research Intern
+  date: Jul. 2023 - Sep. 2023
+
 
 awards:
 - name: Academic Scholarship of UCAS
